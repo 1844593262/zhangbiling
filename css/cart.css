@@ -1,0 +1,172 @@
+@charset "UTF-8";
+.top_head {
+  width: 100%; }
+  .top_head .bgdiv {
+    width: 100%;
+    height: 28px;
+    background: #eee;
+    border-bottom: 1px solid #e9e9e9;
+    position: relative;
+    top: 0;
+    left: 0; }
+    .top_head .bgdiv .bg {
+      width: 980px;
+      margin: 0 auto;
+      padding-top: 5px;
+      position: relative; }
+      .top_head .bgdiv .bg .bg-left {
+        float: left; }
+        .top_head .bgdiv .bg .bg-left .wel {
+          margin-right: 20px; }
+        .top_head .bgdiv .bg .bg-left span {
+          float: left;
+          font-size: 12px; }
+          .top_head .bgdiv .bg .bg-left span a {
+            color: #333;
+            text-decoration: none;
+            font-size: 12px; }
+      .top_head .bgdiv .bg .bg-right {
+        position: absolute;
+        height: 16px;
+        right: 0;
+        top: 4px;
+        color: #666; }
+        .top_head .bgdiv .bg .bg-right span {
+          float: left;
+          height: 16px;
+          line-height: 16px;
+          font-family: 瀹嬩綋;
+          padding: 0px 15px;
+          border-right: 1px solid #d5d5d5; }
+          .top_head .bgdiv .bg .bg-right span a {
+            color: #333;
+            font-size: 12px; }
+
+.wrapAll {
+  width: 980px;
+  margin: 0 auto; }
+  .wrapAll .logo {
+    float: left;
+    height: 65px;
+    padding-top: 25px;
+    background: url(../images/logo.png) no-repeat 0 25px;
+    width: 250px; }
+  .wrapAll .sever {
+    width: 202px;
+    height: 60px;
+    float: right;
+    background: url(../images/head.png) no-repeat;
+    margin-top: 15px; }
+    .wrapAll .sever .panel {
+      height: 32px;
+      margin: 25px 6px 0 10px;
+      background: #fff; }
+      .wrapAll .sever .panel .df {
+        float: left;
+        width: 60px;
+        line-height: 1.6em;
+        padding: 8px 0 0 26px;
+        position: relative;
+        z-index: 9998;
+        margin-left: 5px;
+        _margin-left: 3px; }
+        .wrapAll .sever .panel .df a {
+          color: #333;
+          text-decoration: none;
+          font-size: 12px; }
+    .wrapAll .sever .history {
+      float: left;
+      margin-left: 15px;
+      line-height: 1.6em;
+      position: relative;
+      z-index: 9998;
+      font-size: 12px;
+      top: -20px; }
+      .wrapAll .sever .history .drop h5 {
+        font-size: 12px; }
+
+.req {
+  width: 980px;
+  margin: 0 auto; }
+
+.cart-title {
+  width: 980px;
+  margin: 10px auto;
+  line-height: 30px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 700;
+  clear: both; }
+
+.catsWrap {
+  margin: 0 auto;
+  width: 980px; }
+  .catsWrap .listsShop {
+    padding: 0 10px;
+    border: 1px solid #e3e3e3;
+    background: #fafafa;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    font-size: 12px;
+    color: #333; }
+    .catsWrap .listsShop span {
+      float: left;
+      width: 90px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center; }
+    .catsWrap .listsShop span:first-child {
+      width: 398px; }
+  .catsWrap .product_items {
+    border: 1px solid #f0f0f0;
+    padding: 0 20px;
+    border-top: 0;
+    color: #666;
+    width: 980px; }
+    .catsWrap .product_items .td1 {
+      width: 323px; }
+    .catsWrap .product_items td {
+      border-bottom: 1px dotted #ddd;
+      line-height: 1.4em;
+      height: 80px;
+      text-align: center;
+      color: #666;
+      vertical-align: middle;
+      width: 90px;
+      font-size: 12px; }
+      .catsWrap .product_items td .del {
+        margin-left: 10px; }
+      .catsWrap .product_items td .jian {
+        width: 20px;
+        margin-right: 9px; }
+      .catsWrap .product_items td .jia {
+        width: 20px;
+        margin-left: 4px; }
+      .catsWrap .product_items td input {
+        width: 30px;
+        height: 21px;
+        text-align: center; }
+      .catsWrap .product_items td .lmf1 {
+        width: 50px;
+        height: 50px;
+        display: block; }
+        .catsWrap .product_items td .lmf1 img {
+          width: 100%;
+          height: 100%; }
+      .catsWrap .product_items td .des-im {
+        width: 323px;
+        height: 81px; }
+        .catsWrap .product_items td .des-im a {
+          color: #666;
+          font-size: 12px; }
+
+.sum {
+  width: 980px;
+  margin: 0 auto; }
+  .sum .numshops {
+    width: 180px;
+    height: 20px;
+    float: left; }
+
+/*# sourceMappingURL=cart.css.map */

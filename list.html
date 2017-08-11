@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表页</title>
+		<link rel="stylesheet"  href="css/list.css">
+		<link rel="stylesheet"  href="css/public.css">
+		<link rel="stylesheet" href="css/shoes.css"/>
+		<link rel="stylesheet" href="css/head.css"/>
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/index.js"></script>
+	    <script src="js/list.js"></script>
+	   
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header"></div>
+		<!--mvpboy-->
+		<div class="mvpboy">
+			<div class="Navigation">
+				您当前的位置:
+				<span><a href="javascript:;">运动鞋</a></span>
+				<span>>></span>
+				<span><a href="javascript:;">板鞋</a></span>
+			</div>
+			<div class="n_bar">
+				<p>
+					男板鞋
+					<span>
+						(共有<i>61</i>个商品)
+					</span>
+				</p>
+			</div>
+			 <!--整个数据列表-->
+			 <div class="allDatas">
+			 	<div class="choiced">您已选择:
+			 		<a href="javascript:;">
+			 			<h5 style="font-size:12px">类目:</h5><em>运动</em>
+			 			<i></i>
+			 		</a>
+			 		<a href="javascript:;">
+			 			<h5 style="font-size:12px">类别:</h5><em>休闲鞋</em>
+			 			<i></i>
+			 		</a>
+			 		<a href="javascript:;">
+			 			<h5 style="font-size:12px">性别:</h5><em>男</em>
+			 			
+			 			<i></i>
+			 		</a>
+			 	</div>
+			 	<dl class="brandlogo">
+			 		<div class="more_open" style="display:block">多选</div>
+			 		<dt>
+			 			<span>品牌：</span>
+			 		</dt>
+			 		<dd>
+			 			 <a class="brand1" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand2" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand3" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand4" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand5" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand6" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand7" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand8" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a  class="brand9"  href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand10" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<dd>
+			 			 <a class="brand11" href="javascript:;">
+			 			 	<i></i>
+			 			 </a>
+			 		</dd>
+			 		<div class="lastInp last-btn" style="display:none">
+			 			<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			    <!--尺码-->
+			    <dl class="sizes">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>尺码:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">XS<i>(5)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">S<i>(42)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">M<i>(51)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">L<i>(27)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">XL<i>(16)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">XXL<i>(7)</i></a>
+			        </dd>
+			        <dd>
+			    		<a href="javascript:;">3XL<i>(0)</i></a>
+			        </dd>
+			        <dd>
+			    		<a href="javascript:;">O<i>(1)</i></a>
+			        </dd>
+			        <dd>
+			    		<a href="javascript:;">2XL<i>(10)</i></a>
+			        </dd>
+			        <div class="lastInp1 last-btn" style="display:none">
+			 			<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			     <!--季节-->
+			    <dl class="seasons">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>季节:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">春秋<i>(62)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">冬季<i>(12)</i></a>
+			    	</dd>
+			    	<div class="lastInp10 last-btn" style="display:none">
+			 			<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			  <div class="wrapAllbars" style="display:block">
+			     <!--价格-->
+			    <dl class="price">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>价格:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">0-99元<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">100-199元<i>(51)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">200-299元<i>(42)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">300-399元<i>(51)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">400-499元<i>(42)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">500-599元<i>(51)</i></a>
+			    	</dd>
+			       <div class="lastInp2 last-btn" style="display:none">
+			 			<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			     <!--适用-->
+			    <dl class="adapt">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>适应:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">运动休闲<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">跑步<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">足球<i>(6)</i></a>
+			    	</dd>
+			    	<div class="lastInp3 last-btn" style="display:none">
+			 			<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			     <!--代言明星-->
+			    <dl class="star">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>代言明星:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">韦德<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">彭于晏<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">林更新<i>(6)</i></a>
+			    	</dd>
+			      <div class="lastInp4 last-btn" style="display:none">
+			 			<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			     <!--球队俱乐部-->
+			    <dl class="football">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>球队俱乐部:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">皇马<i>(6)</i></a>
+			    	</dd>
+			    <div class="lastInp5 last-btn" style="display:none">
+			 		<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			    <!--流行元素-->
+			    <dl class="pourp">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>流行元素:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">品牌LOGO<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">撞色<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">字母<i>(6)</i></a>
+			    	</dd>
+			      <div class="lastInp6 last-btn" style="display:none">
+			 			<input type="submit" value="提交"><input type="submit" value="取消"> 
+			 		</div>
+			    </dl>
+			    <!--功能、科技-->
+			    <dl class="telcon">
+			    	<div class="more_open">多选</div>
+			    	<dt><span>功能/科技:</span></dt>
+			    	<dd>
+			    		<a href="javascript:;">速干<i>(6)</i></a>
+			    	</dd>
+			    	<dd>
+			    		<a href="javascript:;">保暖<i>(6)</i></a>
+			    	</dd>
+			 </div>
+		</div>
+		     <div class="later0">
+		        <a href="javascript:;" class="expand">展开<i></i></a>
+			    <a href="javascript:;" class="collect">收起<i></i></a>
+			 </div>
+<!--列表排序-->
+      <div id="sorts">
+      	  <div class="pai">
+      	  	  <span class="des">
+      	  	  	 <i>排序方式：</i>
+      	  	  	 <a class="des_def" href="javascript:;">默认排序</a>
+      	  	  	  <a class="des_pri" href="javascript:;">价格</a>
+      	  	  	  <a class="des_sale" href="javascript:;">销量</a>
+      	  	  </span>
+      	  	  <span class="page">
+      	  	  	 <span class="selec">
+      	  	  	 	总共找到<i>78</i>个商品
+      	  	  	 </span>
+      	  	  </span>
+      	  </div>
+      	   <!--衣服列表-->
+      	  <div class="clothes  clearfix">
+      	  </div>
+      	  <div class="lastDiv" style="width:980px;height:10px;margin:0 auto;"></div>
+      </div>
+      <div class="btmfen">
+      </div>
+	</body>
+</html>

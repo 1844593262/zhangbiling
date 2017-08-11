@@ -1,0 +1,193 @@
+{
+   "clothes":[ 
+         {
+         	"imgPath":["images/da5562cf1d58f344_210.jpg"],
+             "smallimg":["images/2e4e4b97e64a0612.jpg"],
+             "oldPrice":"￥149",
+             "newPrice":"￥139",
+             "tiltle":"NIKE耐克 T恤  黑+校园红",
+             "sale":"154",
+             "id":"1"
+         },
+         {
+            "imgPath":["images/fe4b05b7a7f90ea2_210.jpg"],
+             "smallimg":["images/851f82e05ee4617f.jpg"],
+             "oldPrice":"￥169",
+             "newPrice":"￥129",
+             "tiltle":"PUMA彪马 T恤  彪马白 ",
+             "sale":"8",
+             "id":"2"
+         },
+         {
+             "imgPath":[
+             				"images/15403234c3633d66_210.jpg"
+             		   ],
+             "smallimg":[ 
+             				 "images/acdd2a5a49c9021e.jpg",
+             				 "images/bd272c95009b7d9a.jpg" 
+             		],
+             "oldPrice":"￥349",
+             "newPrice":"￥339",
+             "tiltle":"originals三叶草 T恤  白+清澈灰 ",
+             "sale":"3",
+             "id":3
+          },
+          {
+             "imgPath":[
+             			 "images/c80f8a4248ffdb99_210.jpg"
+             		  ],
+             "smallimg":[ 
+             			   "images/03d5e851506ba072.jpg",
+             			    "images/a064d983cd3e1448.jpg",
+             			    "images/41424755fd29cbe9.jpg"
+             		    ],
+             "oldPrice":"￥549",
+             "newPrice":"￥349",
+             "tiltle":"grn贵人鸟 T恤  冰川蓝  ",
+             "sale":10,
+             "id":4
+          },
+           {
+         	"imgPath":["images/da5562cf1d58f344_210.jpg"],
+             "smallimg":["images/2e4e4b97e64a0612.jpg"],
+             "oldPrice":"￥149",
+             "newPrice":"￥139",
+             "tiltle":"NIKE耐克 T恤  黑+校园红",
+             "sale":"154",
+             "id":5
+         },
+         {
+            "imgPath":["images/fe4b05b7a7f90ea2_210.jpg"],
+             "smallimg":["images/851f82e05ee4617f.jpg"],
+             "oldPrice":"￥169",
+             "newPrice":"￥129",
+             "tiltle":"PUMA彪马 T恤  彪马白 ",
+             "sale":"8",
+             "id":6
+         },
+         {
+             "imgPath":[
+             				"images/15403234c3633d66_210.jpg"
+             		   ],
+             "smallimg":[ 
+             				 "images/acdd2a5a49c9021e.jpg",
+             				 "images/bd272c95009b7d9a.jpg" 
+             		],
+             "oldPrice":"￥349",
+             "newPrice":"￥339",
+             "tiltle":"originals三叶草 T恤  白+清澈灰 ",
+             "sale":3,
+             "id":7
+          },
+          {
+             "imgPath":[
+             			 "images/c80f8a4248ffdb99_210.jpg"
+             		  ],
+             "smallimg":[ 
+             			   "images/03d5e851506ba072.jpg",
+             			    "images/a064d983cd3e1448.jpg",
+             			    "images/41424755fd29cbe9.jpg"
+             		    ],
+             "oldPrice":"￥549",
+             "newPrice":"￥349",
+             "tiltle":"grn贵人鸟 T恤  冰川蓝  ",
+             "sale":10,
+             "id":8
+          },
+           {
+         	"imgPath":["images/da5562cf1d58f344_210.jpg"],
+             "smallimg":["images/2e4e4b97e64a0612.jpg"],
+             "oldPrice":"￥149",
+             "newPrice":"￥139",
+             "tiltle":"NIKE耐克 T恤  黑+校园红",
+             "sale":"154",
+             "id":9
+         },
+         {
+            "imgPath":["images/fe4b05b7a7f90ea2_210.jpg"],
+             "smallimg":["images/851f82e05ee4617f.jpg"],
+             "oldPrice":"￥169",
+             "newPrice":"￥129",
+             "tiltle":"PUMA彪马 T恤  彪马白 ",
+             "sale":"8",
+             "id":10
+         },
+         {
+             "imgPath":[
+             				"images/15403234c3633d66_210.jpg"
+             		   ],
+             "smallimg":[ 
+             				 "images/acdd2a5a49c9021e.jpg",
+             				 "images/bd272c95009b7d9a.jpg" 
+             		],
+             "oldPrice":"￥349",
+             "newPrice":"￥339",
+             "tiltle":"originals三叶草 T恤  白+清澈灰 ",
+             "sale":3,
+             "id":11
+          },
+          {
+             "imgPath":[
+             			 "images/c80f8a4248ffdb99_210.jpg"
+             		  ],
+             "smallimg":[ 
+             			   "images/03d5e851506ba072.jpg",
+             			    "images/a064d983cd3e1448.jpg",
+             			    "images/41424755fd29cbe9.jpg"
+             		    ],
+             "oldPrice":"￥549",
+             "newPrice":"￥349",
+             "tiltle":"grn贵人鸟 T恤  冰川蓝  ",
+             "sale":10,
+             "id":12
+          },
+           {
+         	"imgPath":["images/da5562cf1d58f344_210.jpg"],
+             "smallimg":["images/2e4e4b97e64a0612.jpg"],
+             "oldPrice":"￥149",
+             "newPrice":"￥139",
+             "tiltle":"NIKE耐克 T恤  黑+校园红",
+             "sale":"154",
+             "id":13
+         },
+         {
+            "imgPath":["images/fe4b05b7a7f90ea2_210.jpg"],
+             "smallimg":["images/851f82e05ee4617f.jpg"],
+             "oldPrice":"￥169",
+             "newPrice":"￥129",
+             "tiltle":"PUMA彪马 T恤  彪马白 ",
+             "sale":"8",
+             "id":14
+         },
+         {
+             "imgPath":[
+             				"images/15403234c3633d66_210.jpg"
+             		   ],
+             "smallimg":[ 
+             				 "images/acdd2a5a49c9021e.jpg",
+             				 "images/bd272c95009b7d9a.jpg" 
+             		],
+             "oldPrice":"￥349",
+             "newPrice":"￥339",
+             "tiltle":"originals三叶草 T恤  白+清澈灰 ",
+             "sale":3,
+             "id":15
+          },
+          {
+             "imgPath":[
+             			 "images/c80f8a4248ffdb99_210.jpg"
+             		  ],
+             "smallimg":[ 
+             			   "images/03d5e851506ba072.jpg",
+             			    "images/a064d983cd3e1448.jpg",
+             			    "images/41424755fd29cbe9.jpg"
+             		    ],
+             "oldPrice":"￥549",
+             "newPrice":"￥349",
+             "tiltle":"grn贵人鸟 T恤  冰川蓝  ",
+             "sale":10,
+             "id":16
+          }
+   
+    ]
+}

@@ -1,0 +1,49 @@
+//head
+#head{
+    width:100%;
+    padding:20px 0 0;
+    .wrap{
+        width:990px;
+        height:73px;
+        margin:0 auto;
+    }
+} 
+//bottom
+#bottom{
+    width:980px;
+    height:91px;
+    margin:30px auto 0;
+    border-top:2px solid #CE3C3B;
+    .bot-wrap{
+        text-align:center;
+        padding:20px 0;
+        color:#777;
+        span{
+            color:#ccc;
+            font-family:"宋体";
+            text-align:center;
+            display:inline-block;
+            a{
+                color:#777;
+                text-decoration:none;
+                font-size:12px;
+                display:inline-block;
+                padding:0 10px;
+                border-right:1px solid #ccc;
+            }
+        }
+        p{
+            font-size:12px;
+            color:#777;
+            a{
+                color:#777;
+            }
+            i{
+                color:#c00;
+                font-size:20px;
+                font-weight:700;
+                text-decoration:none;
+            }
+        }
+    }
+}

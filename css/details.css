@@ -1,0 +1,135 @@
+@charset "UTF-8";
+#wholeDetail {
+  width: 990px;
+  margin: 0 auto; }
+  #wholeDetail .Naviga {
+    padding: 10px 0;
+    font-family: '瀹嬩綋';
+    color: #999;
+    font-size: 12px; }
+    #wholeDetail .Naviga span {
+      margin: 0 5px 0 0; }
+      #wholeDetail .Naviga span a {
+        color: #999;
+        text-decoration: none;
+        font-size: 12px; }
+  #wholeDetail .spec {
+    margin: 5px auto;
+    width: 990px;
+    height: 536px; }
+    #wholeDetail .spec .spec-left {
+      border: 1px solid #f0f0f0;
+      margin: 0 15px 7px 0;
+      width: 430px;
+      height: 430px;
+      float: left; }
+      #wholeDetail .spec .spec-left .toplef a {
+        width: 100%;
+        height: 100%; }
+        #wholeDetail .spec .spec-left .toplef a img {
+          width: 100%;
+          height: 100%; }
+      #wholeDetail .spec .spec-left .smallImg {
+        width: 400px;
+        height: 37px;
+        margin-top: 10px; }
+        #wholeDetail .spec .spec-left .smallImg span {
+          float: left;
+          display: block;
+          border: 1px solid #ccc;
+          overflow: hidden;
+          outline: 0;
+          margin-left: 5px; }
+      #wholeDetail .spec .spec-left .share {
+        background: url(../images/skin/pro_detial_icon1.png) repeat-x 0 -38px;
+        height: 30px; }
+    #wholeDetail .spec .spec-rig {
+      float: left;
+      width: 543px;
+      height: 536px;
+      font-size: 12px;
+      font-weight: normal; }
+      #wholeDetail .spec .spec-rig .aidas {
+        line-height: 1.8em;
+        margin-bottom: -4px; }
+        #wholeDetail .spec .spec-rig .aidas span {
+          float: right;
+          display: block;
+          color: #999; }
+        #wholeDetail .spec .spec-rig .aidas h1 {
+          margin: 0;
+          font-size: 14px;
+          width: 435px;
+          font-weight: bold;
+          color: #111; }
+        #wholeDetail .spec .spec-rig .aidas .sp {
+          border-bottom: 1px solid #ccc; }
+      #wholeDetail .spec .spec-rig .goods-price {
+        margin: 8px 5px 10px;
+        display: block; }
+        #wholeDetail .spec .spec-rig .goods-price li {
+          color: #666;
+          display: block;
+          line-height: 25px; }
+          #wholeDetail .spec .spec-rig .goods-price li i {
+            color: #d00;
+            font-size: 18px;
+            font-weight: 700; }
+      #wholeDetail .spec .spec-rig .btnBar .barRig {
+        height: 58px;
+        position: relative; }
+        #wholeDetail .spec .spec-rig .btnBar .barRig input {
+          width: 171px;
+          height: 44px;
+          outline: none;
+          border: none;
+          float: right;
+          background: url(../images/pro_detial_icon1.png) no-repeat -1px -124px; }
+        #wholeDetail .spec .spec-rig .btnBar .barRig .sub {
+          background-position: -1px -447px; }
+
+.evaluate {
+  width: 990px;
+  margin: 10px auto; }
+  .evaluate .goods-detail-tab {
+    width: 990px;
+    height: 38px;
+    background: url(../images/tabsepbg.gif) repeat-x scroll 0 5px;
+    margin: 30px 0 0 0;
+    padding-left: 5px;
+    overflow: visible; }
+    .evaluate .goods-detail-tab div {
+      background: url(../images/scn_p_tab_bg.gif) repeat-x;
+      height: 21px;
+      padding: 7px 15px 0 15px;
+      width: auto;
+      border: 1px solid #c0c0c0;
+      border-bottom: 0;
+      margin: 0 3px;
+      cursor: pointer;
+      color: #666;
+      display: block;
+      float: left;
+      text-align: center;
+      font-size: 12px; }
+    .evaluate .goods-detail-tab .active {
+      background: #fff none;
+      border: 1px solid #c0c0c0;
+      border-bottom: 0;
+      width: auto;
+      border-top-width: 3px;
+      padding: 4px 15px 3px 15px;
+      color: #333;
+      display: block;
+      font-size: 14px;
+      font-weight: bold;
+      height: 28px;
+      position: relative;
+      margin-bottom: -4px;
+      margin-top: -8px; }
+      .evaluate .goods-detail-tab .active span {
+        line-height: 28px; }
+  .evaluate .hideDiv {
+    display: none; }
+
+/*# sourceMappingURL=details.css.map */

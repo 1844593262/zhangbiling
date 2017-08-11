@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>名鞋库首页</title>
+		<link rel="stylesheet" href="css/public.css"/>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="css/shoes.css"/>
+		<link rel="stylesheet" href="iconfont/iconfont.css"/>
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+	<!--top-title-->
+	<div class="all-top">
+		<div id="top-title">
+			<ul class="topTitleLists">
+				<li class="welcome"><a  class="wel" href="javascript:;">欢迎登录名鞋库</a>
+				    <a href="javascript:;" class="free">免费注册</a> 
+				</li>
+				<li class="myShoes"><a href="javascript:;">
+					我的名鞋库
+					<ul class="myShoes-xl" style="display:none">
+						<li><a href="javascript:;">我的订单</a></li>
+						<li><a href="javascript:;">我的积分</a></li>
+						<li><a href="javascript:;">优惠券</a></li>
+						<li><a href="javascript:;">商品收藏</a></li>
+						<li><a href="javascript:;">收货地址</a></li>
+						<li><a href="javascript:;">密码管理</a></li>
+					</ul>
+					<i></i></a></li>
+				<li class="iphoneShoes"><a href="javascript:;"><s class="iconfont icon-shouji"></s>手机名鞋库
+					   <ul class='collectShoes clearfix' style=  "display:none">
+					    	<li><img src="images/201410081165.png" alt="" /></li>
+					    	<li><img src="images/201410081168.png" alt="" /></li>
+				    </ul>
+					<i></i></a></li>
+				<li><a href="javascript:;">
+					收藏名鞋库
+				</a></li>
+				<li><a href="javascript:;"><i></i>名鞋库客服</a></li>
+				<li><i class="iconfont icon-zuoji"></i></li>
+			</ul>
+		</div>
+	</div>
+	<!--top-search-->
+	<div id="top-search">
+		<div class="left-logo">
+            <a href="javascript:;"></a>
+		</div>
+		<div class="middle-search">
+			<form method="get">
+				<div class="sPut">
+					<input type="text" maxlength="100"/>
+					<input type="submit" value="搜索" class="searchBtn">
+					<ul></ul>
+				</div>
+			</form>
+		</div>
+		<div class="cart cur" style="position:relative;">
+			<a href="javascript:;">
+				 购物车<b class="cart-num">0</b>件 
+		    </a>
+				<div class="cartCon clearfix" style="position:absolute;z-index:999;right: 0;background:#ccc;display:none">
+					 <p class="bar clearfix" style="width:304px;border: 3px solid #f4a318; padding: 10px;background:white">
+					 	<span style="width:50px;height:80px;float:left;display: inline-block;">
+					 		 <img src="" alt="" />
+					 	</span>
+					 	<span style="width:120px;height:80px;float:left;display: inline-block;">
+					 		ue8qeur
+					 	</span>
+					 	<span style="width:37px;height:80px;float:left;display: inline-block;">
+					 		1
+					 	</span>
+					 	<span style="width:58px;height:80px;float:left;display: inline-block;">
+					 		$179</br>
+					 		<a href="javascript:;">[删除]</a>
+					 	</span>
+					</p>
+				</div> 
+			
+		</div>
+	</div>
+	<!--nav-head-->
+	<div id="nav-header">
+		<div class="nav">
+			<ul class="nav-contleft">
+				<li class="firstNav">所有商品分类
+				</li>
+				<li class="on"><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">男子运动</a></li>
+				<li><a href="javascript:;">女子运动</a></li>
+				<li><a href="javascript:;">儿童</a></li>
+				<li><a href="javascript:;">男鞋</a></li>
+				<li><a href="javascript:;">户外</a></li>
+				<li class="weixinPng"><img src="images/wx.gif" alt="" />
+				   <div class="weiXinShow" style="display:none">
+				   		<img src="images/wx2.png" alt="" />
+				  </div>
+				</li>
+			</ul>
+			<ul class="nav-contright">
+				<li class="firstNav"  style="background:none"><a href="javascript:;">上新区</a></li>
+				<li><a href="javascript:;" style="background:none">即将售罄</a></li>
+				<li><a href="javascript:;" >逢八必杀</a></li>
+			</ul>
+			<!--下拉出现的内容-->
+			<div class="listShow" style="display:none">
+					<ul class="menu clearfix">
+					  <li class="s1 selected">
+							<s></s>运动休闲鞋<i></i>
+							<div class="sportShoes selected-cont" style="display:none">
+								<p class="sportMan clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">休闲鞋</a>
+										<a href="javascript:;">训练鞋</a>
+										<a href="javascript:;">帆布鞋</a>
+										<a href="javascript:;">板鞋</a>
+										<a href="javascript:;">网球鞋</a>
+									</div>
+							  </p>
+							 <p class="sportMan clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">休闲鞋</a>
+										<a href="javascript:;">训练鞋</a>
+										<a href="javascript:;">帆布鞋</a>
+										<a href="javascript:;">板鞋</a>
+										<a href="javascript:;">网球鞋</a>
+									</div>
+							 </p>
+							 <p class="sportMan clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">休闲鞋</a>
+										<a href="javascript:;">训练鞋</a>
+										<a href="javascript:;">帆布鞋</a>
+										<a href="javascript:;">板鞋</a>
+										<a href="javascript:;">网球鞋</a>
+									</div>
+							 </p>
+							 <p class="sportMan clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">休闲鞋</a>
+										<a href="javascript:;">训练鞋</a>
+										<a href="javascript:;">帆布鞋</a>
+										<a href="javascript:;">板鞋</a>
+										<a href="javascript:;">网球鞋</a>
+									</div>
+							 </p>
+				          </div>
+				          
+					  </li>
+						<li class="s2 selected">
+							<s></s>运动休闲服<i></i>
+							 <div class="sportShoes1 selected-cont" style="display:none">
+								<p class="sportWoman clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">外衣</a>
+										<a href="javascript:;">卫衣</a>
+										<a href="javascript:;">胸衣</a>
+										<a href="javascript:;">外套</a>
+									</div>
+							  </p>
+							 <p class="sportWoman clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">外衣</a>
+										<a href="javascript:;">卫衣</a>
+										<a href="javascript:;">胸衣</a>
+										<a href="javascript:;">外套</a>
+									</div>
+							 </p>
+							 <p class="sportWoman clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">外衣</a>
+										<a href="javascript:;">卫衣</a>
+										<a href="javascript:;">胸衣</a>
+										<a href="javascript:;">外套</a>
+									</div>
+							 </p>
+							 <p class="sportWoman clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">运动男鞋</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">外衣</a>
+										<a href="javascript:;">卫衣</a>
+										<a href="javascript:;">胸衣</a>
+										<a href="javascript:;">外套</a>
+									</div>
+							 </p>
+				          </div>
+					    </li>
+						<li class="selected">
+							<s></s>跑步  <i></i>
+							<div class="sportShoes2 selected-cont" style="display:none">
+								<p class="sportWoman clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">男子跑步</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">外衣</a>
+										<a href="javascript:;">卫衣</a>
+										<a href="javascript:;">胸衣</a>
+										<a href="javascript:;">外套</a>
+									</div>
+							  </p>
+							 <p class="sportWoman clearfix">
+									<h3 class="clearfix"><a href="javascript:;" class="sport">女子跑步</a><a href="javascript:;" class="more">更多</a></h3>
+									<div class="juti clearfix">
+										<a href="javascript:;">外衣</a>
+										<a href="javascript:;">卫衣</a>
+										<a href="javascript:;">胸衣</a>
+										<a href="javascript:;">外套</a>
+									</div>
+							 </p>
+						</li>
+						<li><s></s>篮球  <i></i></li>
+						<li><s></s>足球  <i></i></li>
+						<li><s></s>包包/配件<i></i></li>
+						<li><s></s>户外 <i></i></li>
+						<li><s></s>男鞋 <i></i></li>
+						<li><s></s>童鞋 <i></i></li>
+						<li><s></s>2017新品专区  <i></i></li>
+						<li><s></s>断码清仓专区  <i></i></li>
+				   </ul>
+			</div> 
+	    </div>
+	</div>
+	
+	<!-- carousel-banner-->
+	 <div id="carousel-banner"   style="width:1190px;">
+	 	 <ul class="carousel">
+	 	 	<li><a href="javascript:;"><img src="images/TB2q_pndJAmyKJjSZFKXXXCQXXa-156043745.jpg"></a></li>
+	 	 	<li><a href="javascript:;"><img src="images/TB2LZXcdNolyKJjSZPfXXawNpXa-156043745.jpg"></a></li>
+	 	 	<li><a href="javascript:;"><img src="images/TB2e8XlXlExEKJjSZFAXXckhpXa-156043745.jpg"></a></li>
+	 	 	<li><a href="javascript:;"><img src="images/lunbo.jpg"></a></li>
+	 	 </ul>
+	 	 <ul class="dot">
+	 	 	<li class="dotAdd"></li>
+	 	 	<li></li>
+	 	 	<li></li>
+	 	 	<li></li>
+	 	 </ul>
+	 </div>
+	 <!--Brand-->
+    <div class="wrapBrand clearfix">
+	 <div class="brand clearfix">
+	 	<div class="brand-left">
+	 		<a class="brand1" href="javascript:;"><span></span></a>
+	 		<a class="brand2" href="javascript:;"><span></span></a>
+	 		<a class="brand3" href="javascript:;"><span></span></a>
+	 		<a class="brand4" href="javascript:;"><span></span></a>
+	 		<a class="brand5" href="javascript:;"><span></span></a>
+	 		<a class="brand6" href="javascript:;"><span></span></a>
+	 		<a class="brand7" href="javascript:;"><span></span></a>
+	 		<a class="brand8" href="javascript:;"><span></span></a>
+	 		<a class="brand9" href="javascript:;"><span></span></a>
+	 		<a class="brand10" href="javascript:;"><span></span></a>
+	 		<a class="brand11" href="javascript:;"><span></span></a>
+	 		<a class="brand12" href="javascript:;"><span></span></a>
+	 		<a class="brand13" href="javascript:;"><span></span></a>
+	 		<a class="brand14" href="javascript:;"><span></span></a>
+	 		<a class="brand15" href="javascript:;"><span></span></a>
+	 		<a class="brand16" href="javascript:;"><span></span></a>
+	 		<a class="brand17" href="javascript:;"><span></span></a>
+	 		<a class="brand18" href="javascript:;"><span></span></a>
+	 		<a class="brand19" href="javascript:;"><span></span></a>
+	 		<a class="brand20" href="javascript:;"><span></span></a>
+	 		<a class="brand21" href="javascript:;"><span></span></a>  
+	 	</div>
+	 	<div class="brand-right" style="float:left">
+	 		<ul class="hotsline">
+	 			<li ><a href="javascript:;">颜王撩妹，运动风全程开挂！</a></li>
+	 			<li><a  href="javascript:;">说走就走，用一场旅行致青春！</a></li>
+	 			<li><a  href="javascript:;">DC潮货出没，帅的犯规！</a></li>
+	 		</ul>
+	 		<div class="news">
+	 			<img src="images/98i4o4ptit.png" alt="" />
+	 		</div>
+	 		<div class="brand_psc">
+	 			<img src="images/s160111xp2.jpg" alt="" />
+	 		</div>
+	 	</div>
+	 </div>
+    </div>
+    <!--activity-->
+    <div class="special clearfix">
+    	<a href="javascript:;"><img src= "images/index_zj1.jpg"><span></span></a>
+    	<a href="javascript:;"><img src= "images/index_zj2.jpg"><span></span></a>
+    	<a href="javascript:;"><img src= "images/index_zj3.jpg"><span></span></a>
+    	<a href="javascript:;"><img src= "images/index_zj4.jpg"><span></span></a>
+    	<a href="javascript:;"><img src= "images/index_zj5.jpg"><span></span></a>
+    </div>
+    <!--classify-->
+    <div class="classify clearfix">
+    	<div class="manClassify clearfix">
+    		<div class="man"><img src="images/menu_01.png"></div>
+    		<ul class="tab">
+    			<li></li>
+    			<li></li>
+    		</ul>
+    		<ul class="choice" style="display:block;">
+    			<li>
+    				<h4>类别</h4>
+    				<p>
+    				   <a href="javascript:;">休闲鞋</a>
+    				   <a href="javascript:;">跑步鞋</a>
+    				   <a href="javascript:;">篮球鞋</a>
+    				   <a href="javascript:;">板鞋</a>
+    				   <a href="javascript:;">足球鞋</a>
+    				   <a href="javascript:;">训练鞋</a>
+    				   <a href="javascript:;">帆布鞋</a>
+    				   <a href="javascript:;">拖鞋</a>	
+    				</p>
+    			</li>
+    			<li>
+    				<h4>场景</h4>
+    				<p>
+    				   <a href="javascript:;">休闲</a>
+  <a href="javascript:;">篮球</a>
+    				   <a href="javascript:;">跑步</a>
+    				   <a href="javascript:;">足球</a>
+    				   <a href="javascript:;">网球</a>
+    				    <a href="javascript:;">户外</a>
+    				</p>
+    			</li>
+    		</ul>
+    		<ul class="choice1" style="display:none">
+    			<li>
+    				<h4>类别</h4>
+    				<p>
+    				   <a href="javascript:;">短袖T恤</a>
+    				   <a href="javascript:;">短袖POLO</a>
+    				   <a href="javascript:;">运动短裤</a>
+    				   <a href="javascript:;">长袖T恤</a>
+    				   <a href="javascript:;">运动长裤</a>
+    				   <a href="javascript:;">卫衣</a>
+    				   <a href="javascript:;">外套</a>	
+    				</p>
+    			</li>
+    			<li>
+    				<h4>场景</h4>
+    				<p>
+    				   <a href="javascript:;">休闲</a>
+  <a href="javascript:;">篮球</a>
+    				   <a href="javascript:;">篮球</a>
+    				   <a href="javascript:;">足球</a>
+    				   <a href="javascript:;">跑步</a>
+    				   <a href="javascript:;">网球</a>
+    				    <a href="javascript:;">户外</a>
+    				</p>
+    			</li>
+    		</ul>
+    	</div>
+    	<div class="womanClassify clearfix">
+    		<div class="woman"><img src="images/menu_02.png"></div>
+    		<ul class="tab1">
+    			<li></li>
+    			<li></li>
+    		</ul>
+    		<ul class="choice">
+    			<li>
+    				<h4>类别</h4>
+    				<p>
+    				   <a href="javascript:;">休闲鞋</a>
+    				   <a href="javascript:;">跑步鞋</a>
+    				   <a href="javascript:;">板鞋</a>
+    				   <a href="javascript:;">帆布鞋</a>
+    				   <a href="javascript:;">训练鞋</a>
+    				   <a href="javascript:;">健步鞋</a>	
+    				</p>
+    			</li>
+    			<li>
+    				<h4>场景</h4>
+    				<p>
+    				   <a href="javascript:;">休闲</a>
+    				   <a href="javascript:;">跑步</a>
+    				   <a href="javascript:;">网球</a>
+    				    <a href="javascript:;">健步鞋</a>
+    				</p>
+    			</li>
+    		</ul>
+    		<ul class="choice1">
+    			<li>
+    				<h4>类别</h4>
+    				<p>
+    				   <a href="javascript:;">短袖T恤</a>
+    				   <a href="javascript:;">运动胸衣</a>
+    				   <a href="javascript:;">运动短裤</a>
+    				   <a href="javascript:;">运动长裤</a>
+    				   <a href="javascript:;">卫衣</a>
+    				   <a href="javascript:;">外套</a>	
+    				    <a href="javascript:;">皮肤衣</a>	
+    				</p>
+    			</li>
+    			<li>
+    				<h4>场景</h4>
+    				<p>
+    				   <a href="javascript:;">休闲</a>
+    				   <a href="javascript:;">跑步</a>
+    				   <a href="javascript:;">网球</a>
+    				    <a href="javascript:;">户外</a>
+    				</p>
+    			</li>
+    		</ul>
+    	</div>
+    	<div class="partsClassify clearfix">
+    		<div class="peijsan" style="float:left"><img src="images/menu_03.png"></div>
+    		<ul class="tab">
+    			<li></li>
+    			<li></li>
+    		</ul>
+    		<ul class="choice">
+    			<li>
+    				<h4>类别</h4>
+    				<p>
+    				   <a href="javascript:;">双肩包</a>
+    				   <a href="javascript:;">单肩包</a>
+    				   <a href="javascript:;">腰包</a>
+    				   <a href="javascript:;">手拎包</a>
+    				   <a href="javascript:;">袜子</a>
+    				</p>
+    			</li>
+    			<li>
+    				<h4>场景</h4>
+    				<p>
+    				   <a href="javascript:;">休闲</a>
+    				   <a href="javascript:;">篮球</a>
+    				   <a href="javascript:;">足球</a>
+    				    <a href="javascript:;">训练</a>
+    				</p>
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+    
+    <!--楼层-->
+    <div class="Louti1 clearfix">
+    </div>
+    <div class="Louti2 clearfix">
+    </div>
+    <div class="Louti3 clearfix">
+    </div>
+    <div class="Louti4 clearfix">
+    </div>
+     <div class="Louti5 clearfix">
+    </div>
+   <!--footbrand--> 
+    <!--<div class="footbrand">
+    	<a  class="tu1" href="javascript:;"></a>
+    	<a  class="tu2" href="javascrpt:;"></a>
+    	<a  class="tu3" href="javascript:;"></a>
+    	<a  class="tu4" href="javascript:;"></a>
+    	<a  class="tu5" href="javascript:;"></a>
+    	<a  class="tu6" href="javascript:;"></a>
+    	<a  class="tu7" href="javascript:;"></a>
+    	<a  class="tu8" href="javascript:;"></a>
+    	<a  class="tu9" href="javascript:;"></a>
+    	<a  class="tu10" href="javascript:;"></a>
+    	<a  class="tu11" href="javascript:;"></a>
+    	<a  class="tu12" href="javascript:;"></a>
+    	<a  class="tu13" href="javascript:;"></a>
+    	<a  class="tu14" href="javascript:;"></a>
+    	<a  class="tu15" href="javascript:;"></a>
+    	<a  class="tu16" href="javascript:;"></a>
+    	<a  class="tu17" href="javascript:;"></a>
+    	<a  class="tu18" href="javascript:;"></a>
+    	<a  class="tu19" href="javascript:;"></a>
+    	<a  class="tu20" href="javascript:;"></a>
+    </div>-->
+    
+    <!--尾部的分类-->
+    <div class="btmfen">	 
+    </div>
+	</body>
+	 
+</html>
